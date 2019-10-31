@@ -1,3 +1,57 @@
-body{
-    color: blue;
+html{
+    display: grid;
+    text-align: center;
+}
+
+body {
+    border: groove;
+    height: 100vh;
+    border-width: thick;
+    margin: 0;
+}
+
+h3 {
+    text-align: center; */
+    color: white;
+    background-color: #83bb6a;
+    margin-top: auto;
+    margin-bottom: 10px;
+    margin-left: 15rem;
+    margin-right: 35rem;
+    padding: 10px 20px 10px 20px;
+
+}
+
+main{
+    width: 50%;
+    margin: 10% auto;
+    padding: 30px;
+
+}
+
+input{
+    border: 3px solid #83bb6a;
+    width: 40%;
+    height: 30px;
+    font-size: 18px;
+}
+
+
+.insert{
+    /* display: inline-block; */
+    /* margin-left: 43em; */
+    margin-top: 10em;
+    
+}
+
+#addSkillsBtn{
+    color: #83bb6a;
+    background-color: transparent;
+    font-weight: bold;
+    border: 3px solid #83bb6a;
+    /* border-radius: 0px; */
+}
+
+#pgtitle{
+    color: white;
 }
