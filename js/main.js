@@ -9,7 +9,7 @@ let input = $('#skill-input');
 
 function addItems() {
   let item = $(`<div class="items"><button type="button" onClick="removeItem" class="btn btn-danger">X</button>${input.val()}</div>`);
-  $('.container').append(item);
+  $('ul').append(item);
   input.val('');
 }
 
@@ -17,7 +17,7 @@ function removeItem(evt) {
   $(this).closest('.items').remove();
 }
 
-$('.container').on(
+$('ul').on(
   'click',
   'button',
   removeItem);

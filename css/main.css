@@ -1,5 +1,5 @@
 html{
-    display: grid;
+    /* display: grid; */
     text-align: center;
 }
 
@@ -7,17 +7,11 @@ body {
     border: groove;
     height: 100vh;
     border-width: thick;
-    margin: 0;
+    /* margin: 0; */
 }
 
 h3 {
-    text-align: center; */
-    color: white;
     background-color: #83bb6a;
-    margin-top: auto;
-    margin-bottom: 10px;
-    margin-left: 15rem;
-    margin-right: 35rem;
     padding: 10px 20px 10px 20px;
 
 }
@@ -25,33 +19,44 @@ h3 {
 main{
     width: 50%;
     margin: 10% auto;
-    padding: 30px;
+    border: groove;
 
 }
 
 input{
-    border: 3px solid #83bb6a;
-    width: 40%;
+    border: 4px solid #83bb6a;
+    width: 83%;
     height: 30px;
     font-size: 18px;
 }
 
 
-.insert{
-    /* display: inline-block; */
-    /* margin-left: 43em; */
-    margin-top: 10em;
-    
+ul{
+    color: #F09634;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: start;
+    /* margin-left: px; */
+
 }
+/* 
+.insert{
+    margin-top: 5px;
+} */
+
 
 #addSkillsBtn{
     color: #83bb6a;
     background-color: transparent;
     font-weight: bold;
-    border: 3px solid #83bb6a;
-    /* border-radius: 0px; */
+    border: 4px solid #83bb6a;
+    width: 16%;
+    margin-bottom: 2px;
 }
 
 #pgtitle{
     color: white;
+    margin-top: 0px;
+    width: 100%;
 }
